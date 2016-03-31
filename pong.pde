@@ -7,14 +7,14 @@ float dy = 2;  // Change in y
 
 // Global variables for the paddle
 var paddle_width = 10;
-var paddle_height = 200;
+var paddle_height = 300;
 
-var dist_wall = 20;
+var dist_wall = 0;
 
 // Adding total hits here...
 //float total = 0;
 float highscore = 0;
-float score = 0;
+float score = 1;
 
 void setup() {
     size(800, 600);
