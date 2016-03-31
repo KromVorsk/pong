@@ -3,7 +3,7 @@ float ball_x;
 float ball_y;
 float ball_dir = 1; // Direction in x 
 float ball_size = 2;  // Radius of ball
-float dy = 2;  // Change in y
+float dy = 1;  // Change in y
 
 // Global variables for the paddle
 var paddle_width = 10;
@@ -12,7 +12,7 @@ var paddle_height = 300;
 var dist_wall = 20;
 
 // Adding total hits here...
-//float total = 0;
+//float total = 20;
 float highscore = 0;
 float score = 1;
 
@@ -28,7 +28,7 @@ void setup() {
 
 void draw() {
     // Background color... RGB
-    background(0,153,0);
+    background(0,0,150);
 
     // Increment x and y by speed of ball
     ball_x += ball_dir * 150;
