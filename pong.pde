@@ -7,7 +7,7 @@ float dy = 2;  // Change in y
 
 // Global variables for the paddle
 var paddle_width = 10;
-var paddle_height = 300;
+var paddle_height = 250;
 
 var dist_wall = 0;
 
