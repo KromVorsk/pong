@@ -9,7 +9,7 @@ float dy = 2;  // Change in y
 var paddle_width = 10;
 var paddle_height = 250;
 
-var dist_wall = 0;
+var dist_wall = 20;
 
 // Adding total hits here...
 //float total = 0;
