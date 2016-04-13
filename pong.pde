@@ -14,7 +14,7 @@ var dist_wall = 20;
 // Adding total hits here...
 //float total = 20;
 float highscore = 2;
-float score = 0;
+float score = 1;
 
 void setup() {
     size(800, 600);
