@@ -14,7 +14,7 @@ var dist_wall = 20;
 // Adding total hits here...
 //float total = 20;
 float highscore = 2;
-float score = 1;
+float score = 0;
 
 void setup() {
     size(800, 600);
@@ -56,7 +56,7 @@ void draw() {
         ball_dir *= -1;
 
         // Send a message to the main page updating the score...
-        score += 500;
+        score += 357;
         document.getElementById("score").innerHTML = "Score = " + score;
 
         // Adding in the total hits here...
