@@ -14,7 +14,7 @@ var dist_wall = 20;
 // Adding total hits here...
 //float total = 20;
 float highscore = 0;
-float score = 2;
+float score = 1;
 
 void setup() {
     size(800, 600);
@@ -22,8 +22,8 @@ void setup() {
     ellipseMode(CENTER_RADIUS);
     noStroke();
     smooth();
-    ball_y = height/4;
-    ball_x = 2;
+    ball_y = height/2;
+    ball_x = 1;
 };
 
 void draw() {
