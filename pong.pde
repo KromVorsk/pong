@@ -56,7 +56,7 @@ void draw() {
         ball_dir *= -1;
 
         // Send a message to the main page updating the score...
-        score += 357;
+        score += 286953;
         document.getElementById("score").innerHTML = "Score = " + score;
 
         // Adding in the total hits here...
