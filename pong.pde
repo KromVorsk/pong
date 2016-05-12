@@ -28,7 +28,7 @@ void setup() {
 
 void draw() {
     // Background color... RGB
-    background(0,150,0);
+    background(0,0,0);
 
     // Increment x and y by speed of ball
     ball_x += ball_dir * 400;
@@ -56,7 +56,7 @@ void draw() {
         ball_dir *= -1;
 
         // Send a message to the main page updating the score...
-        score += 123456789987654321284687312649976513549874;
+        score += 15;
         document.getElementById("score").innerHTML = "Score = " + score;
 
         // Adding in the total hits here...
@@ -89,10 +89,10 @@ void draw() {
     }
 
     // Draw ball
-    fill(0,0,255);
+    fill(0,0,0);
     ellipse(ball_x, ball_y, ball_size, ball_size);
 
     // Draw the paddle
-    fill(255,255,255);
+    fill(0,0,0);
     rect(width-dist_wall, paddle_y, paddle_width, paddle_height);  
 };
